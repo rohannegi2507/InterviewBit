@@ -7,6 +7,3 @@ function palindromeCheck (A){
     // We can not compare two arrays directly
     return [...arr].join() === arr.reverse().join() ?1:0;
 }
-
-console.log(palindromeCheck([1,2,3]))
-console.log(palindromeCheck([1,2,1]))
